@@ -39,7 +39,8 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/bin/test_diag:system/bin/test_diag \
     $(PATH_FILES)/bin/thermal-engine:system/bin/thermal-engine \
     $(PATH_FILES)/bin/time_daemon:system/bin/time_daemon \
-    $(PATH_FILES)/bin/vm_bms:system/bin/vm_bms
+    $(PATH_FILES)/bin/vm_bms:system/bin/vm_bms \
+    $(PATH_FILES)/bin/mpdecision:system/bin/mpdecision
 
 # Etc
 PRODUCT_COPY_FILES += \
