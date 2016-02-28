@@ -118,7 +118,8 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     $(PATH_FILES)/lib/liboeminfo.so:system/lib/liboeminfo.so \
     $(PATH_FILES)/lib/libqmi_oem_api.so:system/lib/libqmi_oem_api.so \
-    $(PATH_FILES)/lib/librmnetctl.so:system/lib/librmnetctl.so
+    $(PATH_FILES)/lib/librmnetctl.so:system/lib/librmnetctl.so \
+    $(PATH_FILES)/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so
 
 # Vendor
 PRODUCT_COPY_FILES += \
